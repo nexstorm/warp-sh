@@ -1,4 +1,5 @@
 #!/bin/bash
+apt update && apt install jq curl wireguard openresolv iptables -y
 private_key=$(wg genkey)
 public_key=$(echo "$private_key" | wg pubkey | sudo tee)
 
