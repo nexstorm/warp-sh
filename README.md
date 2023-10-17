@@ -17,5 +17,5 @@ wgo-quick up wg0
 ```shell
 wgo-quick down wg0
 ```
-
-
+# to-do
+[ ] create wireguard kernel module
