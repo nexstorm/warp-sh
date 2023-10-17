@@ -18,4 +18,4 @@ wgo-quick up wg0
 wgo-quick down wg0
 ```
 # to-do
--[] create wireguard kernel module
+- [ ] create wireguard kernel module
